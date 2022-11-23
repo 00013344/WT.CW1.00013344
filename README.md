@@ -5,4 +5,5 @@ This website is about the SofDev company (Software Development) founded ten year
 
 
 During the creation of the website, I encountered many difficulties that every programmer hates. Even the absence of one dot or space in the wrong place completely destroys the function of the code. It makes errors and takes a lot of time to find that tiny mistake that totally affects the whole project. However, I got many experience and knowledge while creating the website and using different methods of coding. I also realized that experience plays a significant role in IT fields because as a novice frontend developer, I can see how the lack of knowledge wasted a lot of time.
-.
+
+GitHub: https://github.com/AsadullokhBIS/WT.CW1.00013344.git
