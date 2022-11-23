@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/styles_contact_us.css">
+    <title>SofDev</title>
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><h1>SofDev</h1></a>
+        <ul class="navlist"> 
+            <li><a href="./navbar.html">Home</a></li>
+            <li><a href="./About_us.html">About Us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./Review.html">Reviews</a></li>
+            <li><a href="./Contact_us.html">Contact Us</a></li>
+            <li><a href="./faq.html">FAQs</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="contact">
+        <div class="contact-form">
+            <h1>Contact <span>Us</span></h1>
+            <form>
+                <input placeholder="Name" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input placeholder="Subject" required>
+                <textarea cols="30" rows="10" placeholder="Message" required></textarea>
+                <button type="submit" class="btn" onclick="Success()">Send</button>
+            </form>
+        </div>
+        <div class="contact-img">
+            <img src="./resources/contact_us.png" alt="">
+        </div>
+    </section>
+    <script src="./JavaScript/contact_us.js"></script>
+</body>
+</html>
